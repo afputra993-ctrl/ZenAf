@@ -371,7 +371,78 @@ footer .two {
 /* MEDIA QUARTER */
 
 /* laptop */
+@MEDIA (max-width: 980px) {
+  html {
+    font-size: 50%;
+  }
+  
+    .navbar {
+    height: 0;
+    padding:15px 7%;
+  }
+  
+  .navbar a {
+    font-size: 1.6rem;
+    margin: 13px;
+  }
+  
+  .Home {
+    margin-top: 60px;
+  }
+  
+  .Home .Judul {
+    font-size: 1.6rem;
+  }
+  
+  #Home .logo img {
+    width: 21px;
+    height: 21px;
+  }
+  
+  .wrapper {
+    animation: spin 5s infinite linear;
+  }
+  
+  @keyframes spin {
+  0% {
+  transform: translateX(0%);
+}
+100% {
+  transform: translateX(-50%);
+}
+}
 
+.wrapper .gambar {
+  width: 300px;
+}
+  
+  .About {
+    margin-bottom: 150px;
+  }
+  
+.main-container .informasi {
+  font-size: 1.6rem;
+  padding: 5px 7%;
+}
+
+#Info-server {
+  height: 350px;
+}
+
+#Saluran .join a {
+  margin-top: 20px;
+}
+
+#Saluran .join button {
+  max-width: 250px;
+  font-size: 1.5rem;
+}
+
+footer {
+  font-size: 1rem;
+  padding: 5px 7%;
+}
+}
 
 /* Hp */
 @MEDIA (max-width: 600px) {
