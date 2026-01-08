@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  
+  <!-- my style -->
+  <link rel="stylesheet" href="Report.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form action="https://api.web3forms.com/submit" method="POST">
+      
+      <input type="hidden" name="access_key" value="d96a3db4-69b5-4756-bf74-c96bdd7517e3">
+
+      <h1>Laporan bug pada server dan saran</h1>
+      
+      <div class="input-box">
+        <input type="text" placeholder="masukkan nickname">
+      </div>
+      
+      <div class="input-box">
+        <input type="email" placeholder="masukkan email" required>
+      </div>
+      
+      <div class="input-box">
+        <textarea name="message" id="message" rows="10" cols="30" placeholder="masukkan saran atau bug" required></textarea>
+      </div>
+      
+      <div class="input-button">
+        <button type="submit" class="btn">kirim</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
